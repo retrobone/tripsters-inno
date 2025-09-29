@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
@@ -29,8 +30,8 @@ export default function LandingPage() {
         <section className="relative h-[60vh] md:h-[70vh] flex items-center justify-center text-center text-white">
           <Image
             src={heroImage?.imageUrl || "https://picsum.photos/seed/100/1920/1080"}
-            alt={heroImage?.description || "Tropical beach"}
-            data-ai-hint={heroImage?.imageHint || "tropical beach"}
+            alt={heroImage?.description || "Lush green Ziro valley"}
+            data-ai-hint={heroImage?.imageHint || "Ziro valley"}
             fill
             className="object-cover"
             priority
@@ -38,22 +39,22 @@ export default function LandingPage() {
           <div className="absolute inset-0 bg-black/50" />
           <div className="relative z-10 px-4">
             <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight drop-shadow-lg font-headline">
-              Your Journey Begins Here
+              Discover the Soul of Ziro
             </h1>
             <p className="mt-4 max-w-2xl mx-auto text-lg md:text-xl text-white/90 drop-shadow-sm">
-              Discover, plan, and book your next adventure with Tripsters. The world is at your fingertips.
+              Unearth the hidden gems, vibrant culture, and breathtaking landscapes of Arunachal's tranquil paradise.
             </p>
             <Button size="lg" className="mt-8 bg-primary hover:bg-primary/90 text-primary-foreground" asChild>
-              <Link href="/dashboard">Explore Destinations</Link>
+              <Link href="/dashboard">Explore Ziro</Link>
             </Button>
           </div>
         </section>
 
         <section id="features" className="py-16 md:py-24 bg-background">
           <div className="container mx-auto px-4 text-center">
-            <h2 className="text-3xl md:text-4xl font-bold font-headline">Travel, Simplified</h2>
+            <h2 className="text-3xl md:text-4xl font-bold font-headline">Your Ziro Adventure, Simplified</h2>
             <p className="mt-4 max-w-3xl mx-auto text-muted-foreground md:text-lg">
-              Tripsters offers everything you need for a seamless travel experience, from inspiration to booking.
+              From hidden valleys to vibrant festivals, everything you need for an unforgettable journey.
             </p>
             <div className="grid md:grid-cols-3 gap-8 mt-12 text-left">
               <Card className="hover:shadow-lg transition-shadow">
@@ -61,9 +62,9 @@ export default function LandingPage() {
                   <div className="p-3 bg-accent/20 rounded-full w-max mb-4">
                     <Compass className="h-8 w-8 text-accent" />
                   </div>
-                  <h3 className="text-xl font-bold font-headline">Explore & Discover</h3>
+                  <h3 className="text-xl font-bold font-headline">Explore Hidden Gems</h3>
                   <p className="mt-2 text-muted-foreground">
-                    Find your next destination from our curated list of places. Filter by interest, budget, and travel style.
+                    Discover secret viewpoints, serene villages, and untouched forests curated by local experts.
                   </p>
                 </CardContent>
               </Card>
@@ -74,7 +75,7 @@ export default function LandingPage() {
                   </div>
                   <h3 className="text-xl font-bold font-headline">AI-Powered Planning</h3>
                   <p className="mt-2 text-muted-foreground">
-                    Let our smart AI create a personalized itinerary just for you. Spend less time planning and more time enjoying.
+                    Let our AI create a personalized itinerary for your Ziro trip based on your interests and travel style.
                   </p>
                 </CardContent>
               </Card>
@@ -83,9 +84,9 @@ export default function LandingPage() {
                   <div className="p-3 bg-secondary/20 rounded-full w-max mb-4">
                     <Briefcase className="h-8 w-8 text-secondary" />
                   </div>
-                  <h3 className="text-xl font-bold font-headline">Seamless Bookings</h3>
+                  <h3 className="text-xl font-bold font-headline">Experience Apatani Culture</h3>
                   <p className="mt-2 text-muted-foreground">
-                    Book flights, hotels, and tours directly within the app. Manage all your reservations in one place.
+                    Find homestays, learn about sustainable living, and immerse yourself in the unique Apatani traditions.
                   </p>
                 </CardContent>
               </Card>

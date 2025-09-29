@@ -1,70 +1,69 @@
-
 {
   "placeholderImages": [
     {
       "id": "landing-hero",
-      "description": "A stunning view of a tropical beach with turquoise water and a sunset.",
-      "imageUrl": "https://picsum.photos/seed/109/1920/1080",
-      "imageHint": "Goa beach"
+      "description": "A stunning aerial view of the lush green Ziro Valley rice paddies under a clear blue sky.",
+      "imageUrl": "https://images.unsplash.com/photo-1559030843-c7f181b30696?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxaaXJvJTIwdmFsbGV5fGVufDB8fHx8MTc1OTExODI4M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Ziro valley"
     },
     {
-      "id": "shimla",
-      "description": "Aerial view of Shimla with mountains in the background.",
-      "imageUrl": "https://picsum.photos/seed/101/600/400",
-      "imageHint": "Shimla India"
+      "id": "ziro-talley-valley",
+      "description": "Dense green forests of Talley Valley Wildlife Sanctuary.",
+      "imageUrl": "https://images.unsplash.com/photo-1567564375974-b36299d2d6ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxaaXJvJTIwZm9yZXN0fGVufDB8fHx8MTc1OTExODI4M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Ziro forest"
     },
     {
-      "id": "goa",
-      "description": "A beautiful beach in Goa, India with palm trees and a calm sea.",
-      "imageUrl": "https://picsum.photos/seed/102/600/400",
-      "imageHint": "Goa beach"
+      "id": "ziro-hong-village",
+      "description": "Traditional Apatani stilt houses in Hong Village surrounded by rice fields.",
+      "imageUrl": "https://images.unsplash.com/photo-1718364783241-7db930fb5250?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxBcGF0YW5pJTIwdmlsbGFnZXxlbnwwfHx8fDE3NTkxMTgyODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Apatani village"
     },
     {
-      "id": "jaipur",
-      "description": "Hawa Mahal in Jaipur, the Pink City of India.",
-      "imageUrl": "https://picsum.photos/seed/103/600/400",
-      "imageHint": "Jaipur palace"
+      "id": "ziro-kile-pakho",
+      "description": "Panoramic view from the Kile Pakho ridge overlooking Ziro valley.",
+      "imageUrl": "https://images.unsplash.com/photo-1612756931428-2598cc8ef54d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxaaXJvJTIwdmlld3BvaW50fGVufDB8fHx8MTc1OTExODI4M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Ziro viewpoint"
     },
     {
-      "id": "ladakh",
-      "description": "Pangong Lake in Ladakh, with mountains in the background.",
-      "imageUrl": "https://picsum.photos/seed/104/600/400",
-      "imageHint": "Ladakh lake"
+      "id": "ziro-midey-trek",
+      "description": "A serene pathway through tall bamboo groves in Midey.",
+      "imageUrl": "https://images.unsplash.com/photo-1565178117145-41db4d572950?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxiYW1ib28lMjBmb3Jlc3R8ZW58MHx8fHwxNzU5MTE4MjgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bamboo forest"
     },
     {
-      "id": "kerala",
-      "description": "A traditional houseboat on the backwaters of Kerala, India.",
-      "imageUrl": "https://picsum.photos/seed/105/600/400",
-      "imageHint": "Kerala backwaters"
+      "id": "ziro-puto",
+      "description": "A view from the Ziro Puto hillock with pine trees.",
+      "imageUrl": "https://images.unsplash.com/photo-1728551876777-77dd53a27b5a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxaaXJvJTIwaGlsbHxlbnwwfHx8fDE3NTkxMTgyODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Ziro hill"
     },
-     {
+    {
       "id": "login-bg",
-      "description": "The Taj Mahal in Agra at sunrise",
-      "imageUrl": "https://picsum.photos/seed/114/1920/1080",
-      "imageHint": "Taj Mahal"
+      "description": "A misty morning in Ziro Valley.",
+      "imageUrl": "https://images.unsplash.com/flagged/photo-1574619309234-668b6af52bb3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxaaXJvJTIwbWlzdHxlbnwwfHx8fDE3NTkxMTgyODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Ziro mist"
     },
     {
-      "id": "manali",
-      "description": "Solang Valley near Manali, covered in snow.",
-      "imageUrl": "https://picsum.photos/seed/106/600/400",
-      "imageHint": "Manali valley"
+      "id": "ziro-siiro-village",
+      "description": "A close-up of a traditional Apatani home in Siiro Village.",
+      "imageUrl": "https://images.unsplash.com/photo-1611171800200-a4846c1c331d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxBcGF0YW5pJTIwaG9tZXxlbnwwfHx8fDE3NTkxMTgyODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Apatani home"
     },
     {
-      "id": "agra",
-      "description": "The Taj Mahal in Agra, India.",
-      "imageUrl": "https://picsum.photos/seed/107/600/400",
-      "imageHint": "Taj Mahal"
+      "id": "ziro-tarin-farm",
+      "description": "Paddy fields with water channels for fish farming at Tarin Fish Farm.",
+      "imageUrl": "https://images.unsplash.com/photo-1703642326188-b272f0040ff1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cmljZSUyMHBhZGRpZXN8ZW58MHx8fHwxNzU5MTE4MjgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "rice paddies"
     },
     {
-      "id": "udaipur",
-      "description": "City Palace and Lake Pichola in Udaipur, India.",
-      "imageUrl": "https://picsum.photos/seed/108/600/400",
-      "imageHint": "Udaipur palace"
+      "id": "ziro-twin-hills",
+      "description": "The twin hillocks of Dilopolyang Maniipolyang against a cloudy sky.",
+      "imageUrl": "https://images.unsplash.com/photo-1571344259598-f1a282e307c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxaaXJvJTIwaGlsbHN8ZW58MHx8fHwxNzU5MTE4MjgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Ziro hills"
     },
     {
       "id": "munnar",
       "description": "Lush green tea plantations in Munnar, Kerala.",
-      "imageUrl": "https://picsum.photos/seed/110/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1650884986392-984358536050?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxNdW5uYXIlMjB0ZWF8ZW58MHx8fHwxNzU5MTE4MjgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "Munnar tea"
     }
   ]

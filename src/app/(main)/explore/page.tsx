@@ -1,3 +1,4 @@
+
 'use client';
 import { APIProvider, Map, AdvancedMarker } from '@vis.gl/react-google-maps';
 import { destinations } from '@/lib/data';
@@ -18,7 +19,7 @@ import { Badge } from '@/components/ui/badge';
 
 export default function ExplorePage() {
   const [selectedDestination, setSelectedDestination] = useState<typeof destinations[0] | null>(null);
-  const center = { lat: 20, lng: 77 };
+  const center = { lat: 27.55, lng: 93.83 }; // Centered on Ziro
   const categories = [...new Set(destinations.map((d) => d.category))];
   const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY;
 
@@ -27,7 +28,7 @@ export default function ExplorePage() {
       <div className="flex justify-between items-center mb-4">
         <div>
           <h1 className="text-3xl font-bold tracking-tight font-headline">
-            Explore the World
+            Explore Ziro
           </h1>
           <p className="text-muted-foreground">
             Find your next adventure on the map.
@@ -71,7 +72,7 @@ export default function ExplorePage() {
             <APIProvider apiKey={apiKey}>
               <Map
                 defaultCenter={center}
-                defaultZoom={5}
+                defaultZoom={12}
                 gestureHandling={'greedy'}
                 disableDefaultUI={true}
                 mapId="a3a2d7b1e8a94a9a"

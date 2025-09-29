@@ -1,3 +1,4 @@
+
 'use client';
 
 import { useState } from 'react';
@@ -45,9 +46,9 @@ export default function PlanPage() {
   const form = useForm<FormValues>({
     resolver: zodResolver(formSchema),
     defaultValues: {
-      destination: 'Goa, India',
-      duration: '5',
-      preferences: 'Looking for a relaxing beach vacation with family. We enjoy good seafood, and some light water sports. Budget is moderate.',
+      destination: 'Ziro, Arunachal Pradesh',
+      duration: '3',
+      preferences: 'I want a mix of culture and light trekking. Interested in seeing the Apatani lifestyle and finding some good photo spots. Not looking for anything too strenuous.',
     },
   });
 
@@ -74,10 +75,10 @@ export default function PlanPage() {
       <div className="text-center mb-8">
         <Bot className="h-12 w-12 mx-auto text-primary mb-2" />
         <h1 className="text-3xl font-bold tracking-tight font-headline">
-          AI Trip Planner
+          AI Trip Planner for Ziro
         </h1>
         <p className="text-muted-foreground">
-          कहाँ जाना चाहते हैं? Describe your dream trip and let our AI build the perfect itinerary.
+          Describe your ideal Ziro trip and let our AI build the perfect itinerary for you.
         </p>
       </div>
 
@@ -92,7 +93,7 @@ export default function PlanPage() {
                   <FormItem>
                     <FormLabel>Destination</FormLabel>
                     <FormControl>
-                      <Input placeholder="e.g., Shimla, India" {...field} />
+                      <Input {...field} readOnly />
                     </FormControl>
                     <FormMessage />
                   </FormItem>
@@ -105,7 +106,7 @@ export default function PlanPage() {
                   <FormItem>
                     <FormLabel>Duration (in days)</FormLabel>
                     <FormControl>
-                      <Input type="number" placeholder="e.g., 5" {...field} />
+                      <Input type="number" placeholder="e.g., 3" {...field} />
                     </FormControl>
                     <FormMessage />
                   </FormItem>
@@ -126,7 +127,7 @@ export default function PlanPage() {
                       />
                     </FormControl>
                     <FormDescription>
-                      The more detail, the better the plan! For example: "Family trip, kids love beaches, moderate budget".
+                      The more detail, the better the plan! For example: "I love trekking and want to experience local food".
                     </FormDescription>
                     <FormMessage />
                   </FormItem>
@@ -146,8 +147,8 @@ export default function PlanPage() {
           ) : itinerary ? (
             <Card className="w-full h-full max-h-[600px] overflow-y-auto">
               <CardContent className="p-6 prose dark:prose-invert prose-sm max-w-none">
-                <h2 className="font-headline">Your Personalized Itinerary</h2>
-                <div dangerouslySetInnerHTML={{ __html: itinerary.replace(/\n/g, '<br />') }} />
+                <h2 className="font-headline">Your Personalized Ziro Itinerary</h2>
+                <div dangerouslySetInnerHTML={{ __html: itinerary.replace(/\\n/g, '<br />') }} />
               </CardContent>
             </Card>
           ) : (
